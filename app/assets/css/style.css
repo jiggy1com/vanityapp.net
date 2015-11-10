@@ -1,0 +1,86 @@
+
+/**************************************************/
+/* GLOBAL STYLES
+/**************************************************/
+/* Sticky footer styles */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+/* Margin bottom by footer height */
+	margin-bottom: 60px;
+	/*background-image: url(/assets/image/background/background.jpg);*/
+}
+
+.footer {
+	background-color: inherit;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+}
+
+img{
+	max-width: 100%;
+}
+
+/**************************************************/
+/* NAV
+/**************************************************/
+.nav span{
+	display: block;
+}
+
+/* force buttons to keep floating */
+.nav-justified > li{
+	display: table-cell;
+	width: 1%;
+}
+
+/**************************************************/
+/* FLEXSLIDER
+/**************************************************/
+.flex-control-paging li a{
+	color: #000;
+}
+
+/**************************************************/
+/* HOME 
+/**************************************************/
+#home .col-xs-6:nth-child(odd) a{
+	float: right;
+	margin-top: 30px;
+}
+#home .col-xs-6:nth-child(even) a{
+	float: left;	
+	margin-top: 30px;
+}
+/**************************************************/
+/* WEB 
+/**************************************************/
+
+/**************************************************/
+/* PRINT 
+/**************************************************/
+
+/**************************************************/
+/* VIDEO 
+/**************************************************/
+#video .col-xs-6{
+	margin-bottom: 30px;
+}
+#video .col-xs-6:nth-child(odd){
+	clear: left;
+}
+
+/**************************************************/
+/* SOCIAL 
+/**************************************************/
+#social img{
+	display: block;
+	margin: 0px auto;
+}
+
