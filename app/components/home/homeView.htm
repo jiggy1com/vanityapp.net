@@ -1,0 +1,18 @@
+<article id='home'>
+	<section>
+		<div class='container-fluid'>
+			<div class='row'>
+				<div class='col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center' ng-repeat='item in items'>
+					<a ng-href='{{item.link}}'>
+						<img ng-src='/assets/image/home/{{item.image}}.png'>
+					</a>
+				</div>
+			</div>
+			<!--
+			<div ng-controller='contactGroupController'>
+				<contactgroup></contactgroup>
+			</div>
+			-->
+		</div>
+	</section>
+</article>
