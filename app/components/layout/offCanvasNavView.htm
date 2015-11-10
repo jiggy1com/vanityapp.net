@@ -1,0 +1,10 @@
+<div class='nav navmenu navmenu-fixed-left offcanvas'>
+	<a class='navmenu-brand' href='#'>VanityApp.net</a>
+	<ul class='nav navmenu-nav'>
+		<li ng-repeat='item in items'>
+			<a href='/{{item}}'>
+				{{item | camelCasePhraseFilter}}
+			</a>
+		</li>
+	</ul>
+</div>
