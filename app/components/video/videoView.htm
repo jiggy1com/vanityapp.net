@@ -1,0 +1,20 @@
+<article id='video'>
+	<section>
+		<div class='container-fluid'>
+			<div class='row'>
+				<div class='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
+					<h1>Video</h1>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-xs-6 col-sm-6 col-md-6 col-lg-6' ng-repeat='video in videos'>
+					<div class="embed-responsive embed-responsive-16by9">
+						<youtubeiframe width='560' height='315' videoID={{video.videoID}} videourl="{{video.videoURL}}"></youtubeiframe>
+					</div>
+					<h4>{{video.title}}</h4>
+					{{video.description}}
+				</div>
+			</div>
+		</div>
+	</section>
+</article>
